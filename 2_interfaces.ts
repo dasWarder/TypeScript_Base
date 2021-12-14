@@ -60,7 +60,6 @@ clock.setTime(new Date(2021, 11, 11, 12, 0, 0, 0));
 clock.printTime();
 
 
-
 interface INavStyle {
     [key: string]: string
 };
@@ -71,14 +70,7 @@ const navStyle: INavStyle = {
     borderRadius: '5px'
 };
 
-enum StatusType {
-    IN_PROCESS= 'in process',
-    RECEIVED = 'received',
-    PROCESSED = 'processed',
-    REJECTED = 'rejected'
-};
 
-const currentStatus = StatusType.IN_PROCESS;
-const currentStatusReversed = StatusType[0];
+
 
 
